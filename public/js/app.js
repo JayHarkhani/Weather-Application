@@ -24,8 +24,7 @@ weatherForm.addEventListener('submit',(e)=>{
             }
             else{
                 messageOne.textContent = data.location
-                messageTwo.textContent = JSON.stringify(data.forecast.temperature) 
-                messageThree.textContent = JSON.stringify(data.forecast.summary)
+                messageTwo.textContent = data.forecast
 
                 console.log(data.forecast)
 
